@@ -15,7 +15,7 @@ public interface UserService {
 
 
     //Delete
-   void deleteUser(String userId);
+   UserDto deleteUser(String userId);
 
 
     //get all Users
